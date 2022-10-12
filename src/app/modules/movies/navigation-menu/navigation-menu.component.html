@@ -1,0 +1,20 @@
+<div class="navigator-container">
+    <mat-card class="avatar">
+        <img mat-card-avatar src="./../../../../assets/img/spide2.jpg" alt="">
+        <span>Ivan</span>
+    </mat-card>
+
+    <mat-divider></mat-divider>
+
+    <mat-action-list>
+        <mat-list-item>
+            <p matLine>Inicio</p>
+        </mat-list-item>
+        <mat-list-item *ngFor="let menu of genres">
+        </mat-list-item>
+
+    </mat-action-list>
+
+</div>
+
+{{genres | json}}
